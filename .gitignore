@@ -1,0 +1,57 @@
+# Maven
+target/
+pom.xml.tag
+pom.xml.next
+pom.xml.bak
+pom.xml.versions
+pom.xml.releaseBackup
+dependency-reduced-pom.xml
+build directory
+
+# Java
+*.class
+*.jar
+*.war
+*.ear
+*.zip
+*.tar.gz
+*.log
+*.lock
+# JVM Crash Dump files
+hs_err_pid*.log
+
+# Eclipse
+.classpath
+.project
+.settings/
+
+# IntelliJ IDEA
+.idea/
+*.iml
+*.ipr
+*.iws
+
+# NetBeans
+nbproject/private/
+build/
+nbbuild/
+dist/
+nbdist/
+.nb-gradle/
+.nb-automated/
+*.nbattrs
+[Dd]ist/
+[Dd]ist-dev/
+[Ll]ogs/
+
+# VS Code
+.vscode/
+
+# Operating System Files
+.DS_Store # Mac
+.apt_generated # Linux
+.cache
+.project
+.resource
+thumbs.db # Windows
+.env
