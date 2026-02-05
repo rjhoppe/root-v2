@@ -100,7 +100,7 @@ public class Game {
 
     String word = submission.getWord();
 
-    if (word.equals(this.submittedWords.getLast())) {
+    if (word.equals(this.submittedWords.get(this.submittedWords.size() - 1))) {
       this.gameStateMsg = "Submitted word cannot equal current game word";
       System.out.println(this.gameStateMsg);
       return false;
@@ -131,7 +131,7 @@ public class Game {
 
   private void initializeGame() {
     getNewWord();
-    System.out.println("Game " + gameId + " initialized. First word: " + this.givenWords.getLast());
+    System.out.println("Game " + gameId + " initialized. First word: " + this.givenWords.get(this.givenWords.size() - 1));
     startNewRoundTimer(Duration.ofSeconds(60));
   }
 
